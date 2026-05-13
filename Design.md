@@ -1,10 +1,10 @@
 ## Purpose
-This file defines the visual style, design tokens, and component guidelines for the mobile app. AI coding tools should follow this file when generating or modifying UI.
+This file defines the visual style, design tokens, and component guidelines for the FOX LOCAL mobile app. AI coding tools should follow this file when generating or modifying UI.
 
 ## Product Style
 
 Tone & Personality
-FOX LOCAL feels like a newsroom (think Apple News), not a lifestyle app. The design communicates:
+FOX LOCAL should feel like a local news mobile app (think Apple News) not a lifestyle app. The design communicates:
 
 Authority — bold type, high contrast, minimal decoration
 Urgency — red accents signal live and breaking content
@@ -24,16 +24,17 @@ FOX LOCAL has a bold, authoritative visual identity designed for trust, urgency,
 
 | Role | Value | Usage |
 |---|---|---|
-| Primary Background | `#0A1A35` (deep navy) | Screen backgrounds, card fills |
-| Secondary Background | `#112244` (mid navy) | Section containers, trending cards |
-| Surface / Card | `#162B50` (lighter navy) | Elevated cards, video thumbnails |
-| Primary Accent | `#E8192C` (FOX red) | "Watch Live" CTA button, live badges, bullet points, category tags |
-| Text — Primary | `#FFFFFF` | Headlines, story titles |
+| Primary Background | `#042152` (deep navy) | Screen backgrounds, card fills |
+| Secondary Background | `#19305F` (mid navy) | Section containers, trending cards |
+| Surface / Card | `#19305F` (lighter navy) | Elevated cards, video thumbnails |
+| Accent Color Red | `#D20F26` (FOX red) | "Watch Live" CTA button, live badges |
+| Accent Color Blue | `#4378D4` | Buttons, badges, bullet points |
+| Text — Primary | `#FFFFFF` | Headlines, story titles, category tags |
 | Text — Secondary | `#8A9BB8` (muted blue-gray) | Timestamps, bylines, metadata |
 | Text — Tertiary | `#C5CED9` | Supporting body copy |
 | Live Badge | `#E8192C` with white label | LIVE indicator on streams |
 
-The palette is intentionally limited: deep navy owns the canvas, and FOX red punctuates only the most important interactive or live elements. No gradients, no decorative colors — urgency through restraint.
+The palette is intentionally limited: deep navy owns the canvas, white text for headers and headlines, while FOX red or blue accent colors punctuates only the most important interactive or live elements. No gradients, no decorative colors — urgency through restraint.
 
 ---
 
@@ -64,8 +65,8 @@ The palette is intentionally limited: deep navy owns the canvas, and FOX red pun
 
 ## Iconography & Interactive Elements
 
-- **"Watch Live" Button**: Pill-shaped, solid FOX red (`#E8192C`), bold white label. Always top-right in the navigation bar. This is the primary CTA and should always be immediately visible.
-- **LIVE badge**: Small red pill with white "LIVE" text. Appears on the active livestream card.
+- **"Watch Live" Button**: rectangle-shaped, with radius of 4px, solid FOX red (`#D20F26`), bold white label. Always top-right in the navigation bar. This is the primary CTA and should always be immediately visible.
+- **LIVE badge**: Small red rectangle-shaped with white "LIVE" text (radius of 2px). Appears on the active livestream card.
 - **Play button overlay**: Semi-transparent circular play icon centered over video thumbnails. Consistent across all video types.
 - **Expand/fullscreen icon**: Appears bottom-right of the livestream card. Minimal, white, 2-color icon.
 - **Search icon**: Top-left nav, white outline style.

@@ -7,9 +7,9 @@ Tone & Personality
 FOX LOCAL should feel like a local news mobile app (think Apple News) not a lifestyle app. The design communicates:
 
 Authority — bold type, high contrast, minimal decoration
-Urgency — red accents signal live and breaking content
 Density — high information-per-screen, respects the user's time
 Trust — consistent branding, clean hierarchy, no clutter
+Urgency — red accents labels for live and breaking content
 
 Avoid anything that feels soft, playful, or decorative. Every design decision should ask: does this help a user get to the news faster?
 
@@ -44,8 +44,7 @@ The palette is intentionally limited: deep navy owns the canvas, white text for 
 - **Section Headers** (e.g., "Top Stories from FOX 11", "Trending", "Crime & Public Safety"): Bold white, 20–22pt. Left-aligned. Some sections pair a header with a small icon or `+` action button.
 - **Article Body Copy**: Regular weight, ~15–16pt, muted blue-gray (`#8A9BB8`) for secondary text, white for in-article body text. Comfortable line-height for reading.
 - **Metadata / Timestamps**: Small, ~12–13pt, muted blue-gray. Always below or beside the headline.
-- **Live / Category Labels**: All-caps, bold, small — e.g., `LIVE`, `NEWS`. Red background or colored text for emphasis.
-- **"The Brief" Bullets**: Bold white, large (~18pt), generous line-height. Bullet points use FOX red dots. Designed for skimmability.
+- **"The Brief" Bullets**: Bold white, large (~18pt), generous line-height. Bullet points use FOX blue dots. Designed for skimmability.
 
 **Font character**: Rubik Font Family - System-weight sans-serif, no decorative or serif fonts. The typography is utilitarian and news-grade — prioritize legibility and density over style.
 
@@ -78,7 +77,7 @@ The palette is intentionally limited: deep navy owns the canvas, white text for 
 
 ## Navigation & Header
 
-- **Top bar**: Minimal. FOX LOCAL wordmark centered. Search + Weather icons left. "Watch Live" button right. No tab bar visible in these screens — content is scroll-driven.
+- **Top bar**: Minimal. FOX LOCAL logo (https://github.com/mlwebco160/FOX-LOCAL-DESIGN-SYSTEM/blob/10984b0131629de20fc37a0b7cff299f1768d750/images/FOX-LOCAL-Logo-Horizontal.png) at the top, centered. Search + Weather icons left. "Watch Live" button right. No tab bar visible in these screens — content is scroll-driven.
 - **Article detail nav**: Adds a horizontal scrollable topic tag strip below the header (e.g., "Heat Dome 2024 · Heat Dome set to sizzle · Extre…"), using a red dot live indicator for active topics.
 - The header background bleeds into the page — no border or shadow separator.
 
@@ -103,15 +102,3 @@ The palette is intentionally limited: deep navy owns the canvas, white text for 
 - Scroll behavior is standard momentum scroll — no snap or parallax on the feed.
 - Carousel swipes should feel native-responsive with slight deceleration.
 
----
-
-## Tone & Personality
-
-FOX LOCAL feels like a **newsroom, not a lifestyle app**. The design communicates:
-
-- **Authority** — bold type, high contrast, minimal decoration
-- **Urgency** — red accents signal live and breaking content
-- **Density** — high information-per-screen, respects the user's time
-- **Trust** — consistent branding, clean hierarchy, no clutter
-
-Avoid anything that feels soft, playful, or decorative. Every design decision should ask: *does this help a user get to the news faster?*
